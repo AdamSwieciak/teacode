@@ -1,0 +1,28 @@
+.Post {
+  box-sizing: border-box;
+	height: 70px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 50px;
+  cursor: pointer;
+}
+.Post:hover {
+  background-color: rgb(207, 250, 234);
+}
+.Post__avatar {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: rgba(136, 209, 225, 0.542);
+  border: 1px solid rgba(136, 209, 225, 0.542);
+}
+.Post__avatar img {
+	border-radius: 50%;
+}
+.Post__personalData{
+  padding-left: 30px;
+}
